@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\htmlproject.core.contracts\Management.core.contracts.csproj" />
+    <ProjectReference Include="..\htmlproject.infrastructure.ef\Management.infrastructure.ef.csproj" />
+  </ItemGroup>
+
+</Project>
